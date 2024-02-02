@@ -1,0 +1,16 @@
+<!-- Mengyuan Wang 300256068
+Yufei Wang 300217244 -->
+
+<view class='ai-view'>
+  <image  class='ai-paizhao' bindtap='buttonclick' src="{{tempFilePaths}}"/>
+  <text  class='txt'>Yufei Wang</text>
+</view>
+
+<view class="box" >
+  <view class='arrow'></view>
+  <view class='body' bindtap='showModal'>
+    <text>{{resultdata}}</text>
+  </view>
+</view>
+
+<button class='ai-view' type = "primary"bindtap='button'>Start</button>
