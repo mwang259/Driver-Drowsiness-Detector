@@ -1,5 +1,5 @@
 {
-    "description": "项目配置文件，详见文档：%s",
+    "description": "project configure file:%s",
     "packOptions": {
         "ignore": []
     },
